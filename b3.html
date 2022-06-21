@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head></head>
+    <body>
+        <input type="number" id="input">
+        <button onclick="check()">Check</button>
+        <script>
+            const check = () => {
+                let a = +document.getElementById("input").value;
+                if(a == 0){
+                    alert("1")
+                } else if (a<0) {
+                    alert("-1")
+                } 
+                if(a > 0){
+                    alert("0")
+                }
+            
+            }
+        </script>
+    </body>
+</html
